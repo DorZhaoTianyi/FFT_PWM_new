@@ -1,0 +1,62 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: zhao tianyi, USTC, LIC=IK1BF-64DN0-NNJAF-6YAM3-YESB1-FIHPX
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  E:\Keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      CMSIS_AGDI.dll V1.28.3.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+C:\Users\win10\Desktop\FFT-PWM-main (1)\FFT-PWM-main (1)\FFT-PWM-main\STM32F4\USER\LCD.uvprojx
+Project File Date:  05/11/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'E:\Keil5\ARM\ARMCC\Bin'
+Build target 'LCD'
+compiling main.c...
+main.c(83): warning:  #223-D: function "LCD_Init" declared implicitly
+      LCD_Init();					//初始化LCD
+main.c(152): warning:  #1-D: last line of file ends without a newline
+  }
+main.c(67): warning:  #550-D: variable "key"  was set but never used
+      u8 key,t=0;
+main.c(71): warning:  #177-D: variable "pwm_duty"  was declared but never referenced
+      u16 pwm_duty = 0;           //PWM占空比变量
+main.c(72): warning:  #177-D: variable "pwm_dir"  was declared but never referenced
+      u8 pwm_dir = 0;             //PWM方向控制：0-递增，1-递减
+main.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=40948 RO-data=41544 RW-data=80 ZI-data=16208  
+FromELF: creating hex file...
+"..\OBJ\LCD.axf" - 0 Error(s), 5 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.1.0.8.pack
+                Keil.STM32F4xx_DFP.1.0.8
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_LCD
+  E:\Keil5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
